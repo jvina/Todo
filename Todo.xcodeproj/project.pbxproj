@@ -13,6 +13,7 @@
 		A338C8952535170800839495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A338C8932535170800839495 /* Main.storyboard */; };
 		A338C8972535170900839495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A338C8962535170900839495 /* Assets.xcassets */; };
 		A338C89A2535170900839495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A338C8982535170900839495 /* LaunchScreen.storyboard */; };
+		A338C8A32535177A00839495 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338C8A22535177A00839495 /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A338C8962535170900839495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A338C8992535170900839495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A338C89B2535170900839495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A338C8A22535177A00839495 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		A338C8812535170800839495 = {
 			isa = PBXGroup;
 			children = (
+				A338C8A22535177A00839495 /* Todo.swift */,
 				A338C88C2535170800839495 /* Todo */,
 				A338C88B2535170800839495 /* Products */,
 			);
@@ -140,6 +143,7 @@
 				A338C8922535170800839495 /* ViewController.swift in Sources */,
 				A338C88E2535170800839495 /* AppDelegate.swift in Sources */,
 				A338C8902535170800839495 /* SceneDelegate.swift in Sources */,
+				A338C8A32535177A00839495 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
