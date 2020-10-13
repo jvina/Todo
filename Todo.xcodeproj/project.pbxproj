@@ -15,6 +15,7 @@
 		A338C89A2535170900839495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A338C8982535170900839495 /* LaunchScreen.storyboard */; };
 		A338C8A72535186F00839495 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338C8A62535186F00839495 /* Todo.swift */; };
 		A338C8AB2535209C00839495 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338C8AA2535209C00839495 /* Checkbox.swift */; };
+		A3423214253555B600256983 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3423213253555B600256983 /* TodoViewController.swift */; };
 		A3F07EC525352EDD004DD12F /* CheckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F07EC425352EDD004DD12F /* CheckTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		A338C89B2535170900839495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A338C8A62535186F00839495 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		A338C8AA2535209C00839495 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		A3423213253555B600256983 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		A3F07EC425352EDD004DD12F /* CheckTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				A338C88F2535170800839495 /* SceneDelegate.swift */,
 				A338C8912535170800839495 /* ViewController.swift */,
 				A338C8932535170800839495 /* Main.storyboard */,
+				A3423213253555B600256983 /* TodoViewController.swift */,
 				A338C8962535170900839495 /* Assets.xcassets */,
 				A338C8982535170900839495 /* LaunchScreen.storyboard */,
 				A338C89B2535170900839495 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				A3F07EC525352EDD004DD12F /* CheckTableViewCell.swift in Sources */,
 				A338C8922535170800839495 /* ViewController.swift in Sources */,
+				A3423214253555B600256983 /* TodoViewController.swift in Sources */,
 				A338C88E2535170800839495 /* AppDelegate.swift in Sources */,
 				A338C8902535170800839495 /* SceneDelegate.swift in Sources */,
 				A338C8A72535186F00839495 /* Todo.swift in Sources */,
