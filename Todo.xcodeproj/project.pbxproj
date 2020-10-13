@@ -13,7 +13,9 @@
 		A338C8952535170800839495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A338C8932535170800839495 /* Main.storyboard */; };
 		A338C8972535170900839495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A338C8962535170900839495 /* Assets.xcassets */; };
 		A338C89A2535170900839495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A338C8982535170900839495 /* LaunchScreen.storyboard */; };
-		A338C8A32535177A00839495 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338C8A22535177A00839495 /* Todo.swift */; };
+		A338C8A72535186F00839495 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338C8A62535186F00839495 /* Todo.swift */; };
+		A338C8AB2535209C00839495 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A338C8AA2535209C00839495 /* Checkbox.swift */; };
+		A3F07EC525352EDD004DD12F /* CheckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F07EC425352EDD004DD12F /* CheckTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		A338C8962535170900839495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A338C8992535170900839495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A338C89B2535170900839495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A338C8A22535177A00839495 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		A338C8A62535186F00839495 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		A338C8AA2535209C00839495 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		A3F07EC425352EDD004DD12F /* CheckTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,6 @@
 		A338C8812535170800839495 = {
 			isa = PBXGroup;
 			children = (
-				A338C8A22535177A00839495 /* Todo.swift */,
 				A338C88C2535170800839495 /* Todo */,
 				A338C88B2535170800839495 /* Products */,
 			);
@@ -66,6 +69,9 @@
 				A338C8962535170900839495 /* Assets.xcassets */,
 				A338C8982535170900839495 /* LaunchScreen.storyboard */,
 				A338C89B2535170900839495 /* Info.plist */,
+				A338C8A62535186F00839495 /* Todo.swift */,
+				A338C8AA2535209C00839495 /* Checkbox.swift */,
+				A3F07EC425352EDD004DD12F /* CheckTableViewCell.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -140,10 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3F07EC525352EDD004DD12F /* CheckTableViewCell.swift in Sources */,
 				A338C8922535170800839495 /* ViewController.swift in Sources */,
 				A338C88E2535170800839495 /* AppDelegate.swift in Sources */,
 				A338C8902535170800839495 /* SceneDelegate.swift in Sources */,
-				A338C8A32535177A00839495 /* Todo.swift in Sources */,
+				A338C8A72535186F00839495 /* Todo.swift in Sources */,
+				A338C8AB2535209C00839495 /* Checkbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vina.Todo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vina.TodoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vina.Todo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vina.TodoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
